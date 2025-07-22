@@ -4,7 +4,7 @@ import { Link, NavLink, useLocation, useParams } from "react-router-dom";
 import { FaTelegram, FaInstagram, FaFacebook } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 
-function Footer(homePageStyle: string) {
+function Footer(homePageStyle?: string) {
   const { lang } = useParams();
   const t = useTranslations();
   const pathName = useLocation();
