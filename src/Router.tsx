@@ -3,7 +3,7 @@ import NavigatePage from "./middlewares/NavigatePage";
 import ChekLang from "./lib/CheckLang";
 import MainLayout from "./layouts/MainLayout";
 import { PageNotFound } from "./components";
-import { About, Contacts, Events, Home, News } from "./app";
+import { About, Home, Products , Contacts } from "./app";
 
 export const routes = createBrowserRouter([
   {
@@ -27,12 +27,8 @@ export const routes = createBrowserRouter([
             element: <About />,
           },
           {
-            path: "events",
-            element: <Events />,
-          },
-          {
-            path: "news",
-            element: <News />,
+            path: "products",
+            element: <Products />,
           },
           {
             path: "contacts",
