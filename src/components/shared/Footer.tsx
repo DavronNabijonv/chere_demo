@@ -4,12 +4,14 @@ import { Link, NavLink, useLocation, useParams } from "react-router-dom";
 import { FaTelegram, FaInstagram, FaFacebook } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 
-function Footer(homePageStyle?: string) {
+function Footer() {
   const { lang } = useParams();
   const t = useTranslations();
   const pathName = useLocation();
+  console.log(pathName);
+  
   return (
-    <div className={`${homePageStyle} bg-[#e8eff8d8] py-10`}>
+    <div className={`${pathName.pathname === '/uz' ? 'pt-30':''} bg-[#e8eff8d8] py-10`}>
       <div className="mx-auto flex max-w-[1200px] flex-col gap-10 max-lg:px-2">
         {/* page links part */}
         <div className="flex flex-wrap min-[770px]:gap-2 gap-5 items-center min-[770px]:justify-between justify-center">

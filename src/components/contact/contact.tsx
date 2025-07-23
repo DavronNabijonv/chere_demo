@@ -8,7 +8,7 @@ export default function Contact() {
   // language
   const t = useTranslations();
   return (
-    <div className="mx-auto w-full max-w-[1200px] max-lg:px-2 my-30">
+    <div className="mx-auto w-full max-w-[1200px] max-lg:px-2 py-30">
       <div className="rounded-[20px] bg-[#1A367C]">
         <div
           className="flex flex-col items-center gap-2 text-center rounded-[20px] bg-cover bg-center bg-no-repeat py-8"
