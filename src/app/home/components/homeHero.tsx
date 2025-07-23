@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HomeHero() {
   return (
-    <div className="relative overflow-hidden lg:h-[800px] md:h-[750px] h-[500px] bg-gradient-to-tr from-[#f3efed] via-[#f4f8fd] to-[#f3efed]">
+    <div className="relative overflow-hidden lg:h-[800px] md:h-[750px] h-[500px] bg-gradient-to-br from-[#f3efed] via-[#f4f8fd] to-[#f3efed]">
       <div className="relative md:h-[700px] h-[500px]">
         {/* Eng orqa fon - ocean tasviri (1-qatlam) */}
         <img

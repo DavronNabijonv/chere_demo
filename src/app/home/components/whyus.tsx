@@ -4,9 +4,9 @@ import { useTranslations } from "@/hooks/useTranslations";
 export default function Whyus() {
   const t = useTranslations();
   return (
-    <div className="bg-[#DEE2E9] py-20 pt-40">
+    <div className="bg-[#DEE2E9] py-20 pt-60">
       <div className="mx-auto w-full max-w-[1200px] px-2">
-        <p className="bg-gradient-to-b min-[600px]:mb-20 mb-10 from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-[20px] font-bold text-transparent sm:text-[30px] md:text-[40px] lg:text-[60px]">
+        <p className="bg-gradient-to-b min-[600px]:mb-20 mb-10 from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text font-bold text-transparent text-[30px] md:text-[40px] lg:text-[60px]">
           {t.homePage.homeWhyUs.title}
         </p>
         <div className="grid min-[1000px]:grid-cols-3 grid-cols-2 w-full min-[1000px]:gap-1 gap-8 max-[720px]:grid-cols-1">

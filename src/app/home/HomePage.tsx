@@ -4,12 +4,14 @@ import { IoLocationSharp } from "react-icons/io5";
 import AboutHome from "./components/aboutHome";
 import Cargo from "./components/cargo";
 import Whyus from "./components/whyus";
+import Products from "./components/products";
 
 function HomePage() {
   return (
     <>
       <HomeHero />
       <div className="bg-gradient-to-tr from-[#f3efed] via-[#f4f8fd] to-[#f3efed]">
+        <Products/>
         <Whyus/>
         <div className="h-[100px] w-full bg-white"></div>
         <Cargo/>
