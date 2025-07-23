@@ -19,6 +19,9 @@ export {default as img8} from './images/img8.jpeg';
 export {default as img9} from './images/img9.jpg';
 export {default as img10} from './images/img10.jpg';
 
+// products page product image
+export {default as baklashka1L} from './images/baklashka1L.png';
+
 
 // contact component back image
 export {default as contact_bg} from './images/contact_bg.png';
