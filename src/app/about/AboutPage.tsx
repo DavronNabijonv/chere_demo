@@ -1,5 +1,9 @@
+import AboutHero from "./components/aboutHero";
+
 function AboutPage() {
-  return <div>AboutPage</div>;
+  return <div>
+    <AboutHero/>
+  </div>;
 }
 
 export default AboutPage;

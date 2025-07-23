@@ -1,5 +1,11 @@
+import ProductHero from "./components/productHero";
+
 function Products() {
-  return <div>NewsPage</div>;
+  return (
+    <>
+      <ProductHero />
+    </>
+  );
 }
 
 export default Products;

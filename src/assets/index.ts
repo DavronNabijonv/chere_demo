@@ -16,6 +16,10 @@ export {default as ser} from './images/sertificat.jpg';
 // contact component back image
 export {default as contact_bg} from './images/contact_bg.png';
 
+// page hero back images
+export {default as back_hero} from './images/contact_bg.png';
+export {default as back_hero_products} from './images/product_hero.png';
+
 /* --------------------------------- Icons --------------------------------- */
 
 // home page why us icons
