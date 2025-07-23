@@ -11,6 +11,7 @@ export {default as img4} from './images/about_img4.jpeg';
 export {default as img5} from './images/about_img5.jpg';
 export {default as img6} from './images/about_img6.jpg';
 export {default as box} from './images/box.png';
+export {default as ser} from './images/sertificat.jpg';
 
 // contact component back image
 export {default as contact_bg} from './images/contact_bg.png';
@@ -21,4 +22,5 @@ export {default as contact_bg} from './images/contact_bg.png';
 export {default as drop} from './icons/drops.png';
 export {default as botle} from './icons/botle.png';
 export {default as circleDrop} from './icons/circleDrop.png';
+export {default as hand} from './icons/hand-heart-fill.png';
 

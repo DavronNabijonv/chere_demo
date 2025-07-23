@@ -30,7 +30,7 @@ function Navbar() {
   };
 
   return (
-    <div className="absolute top-0 left-0 z-10 w-full bg-[#fff0]">
+    <div className="absolute top-0 left-0 z-30 w-full bg-[#fff0]">
       <nav className="py-3 px-2 min-[1100px]:p-4">
         <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between bg-none px-2">
           {/* phone format */}
@@ -52,7 +52,7 @@ function Navbar() {
           </div>
 
           <div
-            className={`fixed top-20 z-10 transition-transform right-0 duration-300 max-w-[300px] w-full  ${
+            className={`fixed top-20 z-50 transition-transform right-0 duration-300 max-w-[300px] w-full  ${
               tog ? " mx-2 translate-x-0" : " translate-x-full"
             }`}
           >
@@ -175,7 +175,7 @@ function Navbar() {
       </nav>
       <div
       onClick={()=>setTog(false)}
-        className={`fixed top-0 -z-10 h-[100%] w-[100%] bg-[#f5f2f204] ${tog ? "flex" : "hidden"}`}
+        className={`fixed top-0 z-40 h-[100%] w-[100%] bg-[#f5f2f204] ${tog ? "flex" : "hidden"}`}
       ></div>
     </div>
   );
