@@ -1,4 +1,4 @@
-import { box, contact_bg } from "@/assets";
+import { contact_bg } from "@/assets";
 import { useTranslations } from "@/hooks/useTranslations";
 import { FaArrowRight } from "react-icons/fa";
 
