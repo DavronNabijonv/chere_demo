@@ -20,7 +20,7 @@ export const uz = {
     },
     homePage:{
         homeAbout:{
-            title:'Biz haqimizda',
+            title:'Biz Haqimizda',
             desc:`Chere Water toza buloq suvlari  2023-yildan buyon o'z mijozlari uchun faoliyat yuritib kelmoqda. Bizning kompaniyaning oliy maqsadlaridan biri minerallarga boy suv mahsulotlarini sifat standartlariga mos ishlab chiqarish va yetkazib berishdir. Bizning filtrlash texnalogiyalarimiz O'zbekistonda yuqori o'rinlarni egallaydi. Mahsulotimiz sizning ofisingiz, oilangiz va mashg'ulotlaringiz uchun moslashtirilgan hamda o'zida yorqin ta'mlarni uyg'unlashtirgan`
         },
         homeCargo:{
