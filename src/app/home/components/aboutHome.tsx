@@ -2,6 +2,8 @@
 
 export default function AboutHome() {
   return (
-    <div>aboutHome</div>
+    <div className="mx-auto w-full max-w-[1200px]">
+        
+    </div>
   )
 }

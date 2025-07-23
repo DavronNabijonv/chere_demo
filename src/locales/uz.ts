@@ -18,4 +18,27 @@ export const uz = {
             phoneNumber:'Telefon raqamingiz'
         }
     },
+    homePage:{
+        homeAbout:{
+            title:'Biz haqimizda',
+            desc:`Chere Water toza buloq suvlari  2023-yildan buyon o'z mijozlari uchun faoliyat yuritib kelmoqda. Bizning kompaniyaning oliy maqsadlaridan biri minerallarga boy suv mahsulotlarini sifat standartlariga mos ishlab chiqarish va yetkazib berishdir. Bizning filtrlash texnalogiyalarimiz O'zbekistonda yuqori o'rinlarni egallaydi. Mahsulotimiz sizning ofisingiz, oilangiz va mashg'ulotlaringiz uchun moslashtirilgan hamda o'zida yorqin ta'mlarni uyg'unlashtirgan`
+        },
+        homeCargo:{
+            title:'Bepul yetkazib Berish',
+            desc:`har oy 20 dona 20 l hajmdagi suvdan muntazam ravishda xarid qilgan mijozlarga kuller apparati bepul taqdim etiladi.`
+        },
+        homeWhyUs:{
+            title:'Nega Chere ?',
+            title1:'Toza buloq suvi',
+            desc1:`Chere water mineral va energiyaga to‘yingan buloq suvi bo‘lib, tanagizga quvvat baxsh etadi!`,
+            title2:'Maxsus suv filti',
+            desc2:`Mahsulot 100% fitrlangan bo‘lib, toksinlardan to‘liq tozalangan holda xonadoningizga yetib boradi!`,
+            title3:'sog‘liq tanlovi',
+            desc3:`Ushbu buloq suvi organizmni ichki tozalash va balansda ushlab turish uchun ideal tanlovdir!`,
+        },
+        homeSer:{
+            title:'Chere water sifat sertifikati',
+            desc:`Chere water barcha standartlarga javob beradi. Minerallarni o'zida uyg'unlashtiradi. Mijozlari ishonchi uchun sertifikat buni tasdiqlaydi.`
+        },
+    },
 };

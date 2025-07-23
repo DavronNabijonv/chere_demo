@@ -8,8 +8,8 @@ function HomePage() {
     <>
       <HomeHero />
       <div className="bg-gradient-to-tr from-[#f3efed] via-[#f4f8fd] to-[#f3efed] max-[1200px]:px-2">
-        <Contact />
         <AboutHome />
+        <Contact />
 
         {/* contact information , phone , location , work hours */}
         <div className="mx-auto w-full max-w-[1200px]  relative min-[740px]:h-[80px] h-[170px] max-[340px]:h-[220px]">
