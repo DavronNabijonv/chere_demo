@@ -17,7 +17,7 @@ interface FormInputProps {
     error,
     placeholder,
   }: FormInputProps) => (
-    <div>
+    <div className="w-full">
       <input
         id={id}
         name={name}
