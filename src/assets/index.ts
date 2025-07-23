@@ -13,6 +13,13 @@ export {default as img6} from './images/about_img6.jpg';
 export {default as box} from './images/box.png';
 export {default as ser} from './images/sertificat.jpg';
 
+// about page images
+export {default as img7} from './images/img7.jpeg';
+export {default as img8} from './images/img8.jpeg';
+export {default as img9} from './images/img9.jpg';
+export {default as img10} from './images/img10.jpg';
+
+
 // contact component back image
 export {default as contact_bg} from './images/contact_bg.png';
 
