@@ -10,6 +10,7 @@ export {default as img3} from './images/about_img3.jpeg';
 export {default as img4} from './images/about_img4.jpeg';
 export {default as img5} from './images/about_img5.jpg';
 export {default as img6} from './images/about_img6.jpg';
+export {default as box} from './images/box.png';
 
 // contact component back image
 export {default as contact_bg} from './images/contact_bg.png';

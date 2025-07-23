@@ -25,7 +25,7 @@ export const uz = {
         },
         homeCargo:{
             title:'Bepul yetkazib Berish',
-            desc:`har oy 20 dona 20 l hajmdagi suvdan muntazam ravishda xarid qilgan mijozlarga kuller apparati bepul taqdim etiladi.`
+            desc:`Har oy 20 dona 20 l hajmdagi suvdan muntazam ravishda xarid qilgan mijozlarga kuller apparati bepul taqdim etiladi.`
         },
         homeWhyUs:{
             title:'Nega Chere ?',
