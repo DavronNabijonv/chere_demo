@@ -9,7 +9,7 @@ export default function Cargo() {
       className="bg-[#0d1015] bg-cover bg-center bg-no-repeat py-30"
       style={{ backgroundImage: `url(${contact_bg})` }}
     >
-      <div className="relative mx-auto max-w-[1200px]">
+      <div className="relative mx-auto max-w-[1200px] px-2">
         <div className="flex flex-col items-start gap-5">
           <p className="bg-gradient-to-b from-[#FFFFFF] to-[#BDC7E1] bg-clip-text text-[20px] font-bold text-transparent sm:text-[30px] md:text-[40px] lg:text-[50px]">
             {t.homePage.homeCargo.title}

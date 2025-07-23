@@ -3,12 +3,14 @@ import Contact from "@/components/contact/contact";
 import { IoLocationSharp } from "react-icons/io5";
 import AboutHome from "./components/aboutHome";
 import Cargo from "./components/cargo";
+import Whyus from "./components/whyus";
 
 function HomePage() {
   return (
     <>
       <HomeHero />
-      <div className="bg-gradient-to-tr from-[#f3efed] via-[#f4f8fd] to-[#f3efed] max-[1200px]:px-2">
+      <div className="bg-gradient-to-tr from-[#f3efed] via-[#f4f8fd] to-[#f3efed]">
+        <Whyus/>
         <div className="h-[100px] w-full bg-white"></div>
         <Cargo/>
         <AboutHome />

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HomeHero() {
   return (
-    <div className="relative overflow-hidden lg:h-[800px] md:h-[750px] h-[500px]">
+    <div className="relative overflow-hidden lg:h-[800px] md:h-[750px] h-[500px] ">
       <div className="relative md:h-[700px] h-[500px] ">
         {/* back ocean image */}
         <img

@@ -16,3 +16,9 @@ export {default as box} from './images/box.png';
 export {default as contact_bg} from './images/contact_bg.png';
 
 /* --------------------------------- Icons --------------------------------- */
+
+// home page why us icons
+export {default as drop} from './icons/drops.png';
+export {default as botle} from './icons/botle.png';
+export {default as circleDrop} from './icons/circleDrop.png';
+
