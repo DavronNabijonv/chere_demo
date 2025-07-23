@@ -104,7 +104,7 @@ function Navbar() {
           </Link>
 
           {/* main links */}
-          <ul className="hidden items-center justify-between space-x-6 rounded-[100px] border-1 border-white bg-[#ffffff00] px-1 py-2 shadow-[0px_1px_10px_#77767679] backdrop-saturate-200 min-lg:flex">
+          <ul className="hidden items-center justify-between space-x-6 rounded-[100px] border-1 border-white bg-[#ffffff86] px-1 py-2 shadow-[0px_1px_10px_#77767679] backdrop-saturate-200 min-lg:flex">
             <li>
               <NavLink
                 to={""}
