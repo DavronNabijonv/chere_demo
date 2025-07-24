@@ -6,6 +6,7 @@ interface FormInputProps {
     onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
     error?: string;
     placeholder?: string;
+    cssStyle?:string;
   }
   
   export const FormInput = ({
@@ -16,8 +17,9 @@ interface FormInputProps {
     onChange,
     error,
     placeholder,
+    cssStyle
   }: FormInputProps) => (
-    <div className="w-full">
+    <div className={`${cssStyle}`}>
       <input
         id={id}
         name={name}

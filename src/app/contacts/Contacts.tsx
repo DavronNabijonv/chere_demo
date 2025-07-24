@@ -5,6 +5,10 @@ import { useState } from "react";
 import { validateName, validatePhone } from "@/components/contact/validation";
 import { FormInput } from "@/components/contact/FormInput";
 
+// icons
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaClock } from "react-icons/fa";
+
 function Contacts() {
 
   const [formData, setFormData] = useState({ name: "", phone: "" });
@@ -68,6 +72,7 @@ function Contacts() {
                 onChange={handleChange}
                 error={errors.name}
                 placeholder={t.contact_comp.form.userName}
+                cssStyle="w-full"
               />
               <div className="flex items-center gap-2 w-full">
                 <FormInput
@@ -78,6 +83,7 @@ function Contacts() {
                   onChange={handleChange}
                   error={errors.phone}
                   placeholder={t.contact_comp.form.phoneNumber}
+                   cssStyle="w-full"
                 />
               </div>
               <button
@@ -103,7 +109,7 @@ function Contacts() {
 
             <div className="flex items-center gap-3">
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
-                <IoLocationSharp size={20} />
+                <FaPhoneAlt size={20} />
               </span>
               <p className="w-full max-w-[300px]">
                 Manzil: Toshkent shahar, Uchtepa tumaniBog‘ishamol koz-‘chasi,
@@ -113,7 +119,7 @@ function Contacts() {
 
             <div className="flex items-center gap-3">
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
-                <IoLocationSharp size={20} />
+                <FaClock size={20} />
               </span>
               <p className="w-full max-w-[300px]">
                 Manzil: Toshkent shahar, Uchtepa tumaniBog‘ishamol koz-‘chasi,
