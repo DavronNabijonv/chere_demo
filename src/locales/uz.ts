@@ -76,6 +76,6 @@ Biz qadriyatlarimiz va sizning ishonchingizga suyanamiz!`,
     time: "Murojaat vaqti:",
   },
   water20Desc:`Oila va ofis uchun katta hajmdagi kapsula, 16.9 Fl Oz / 20 L`,
-  water1Desc:`kundalik foydalanish uchun ideal tanlov , 16.9 Fl Oz / 10 L`,
+  water1Desc:`Kundalik foydalanish uchun ideal tanlov , 16.9 Fl Oz / 10 L`,
   water05Desc:`Kichik turdagi qulay va portativ qadoqlangan suv , 16.9 Fl Oz / 5 L`,
 };

@@ -16,13 +16,15 @@ function HomePage() {
     <>
       <HomeHero />
       <div className="bg-gradient-to-tr from-[#f3efed] via-[#f4f8fd] to-[#f3efed]">
-        <HomeProducts/>
+        <HomeProducts />
         <Products />
         <Whyus />
         <div className="h-[100px] w-full bg-white"></div>
         <Cargo />
         <AboutHome />
-        <Contact />
+        <div id="contact">
+          <Contact />
+        </div>
 
         {/* contact information , phone , location , work hours */}
         <div className="relative mx-auto h-[170px] w-full max-w-[1200px] max-[340px]:h-[220px] min-[740px]:h-[80px]">

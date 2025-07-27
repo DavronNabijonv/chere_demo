@@ -1,0 +1,13 @@
+.home_swiper .swiper-button-prev,
+.home_swiper .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid #DDAE57;
+}
+
+.home_swiper .swiper-button-prev::after,
+.home_swiper .swiper-button-next::after {
+    font-size: 24px;
+    color: #DDAE57;
+}
