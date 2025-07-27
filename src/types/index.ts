@@ -16,4 +16,13 @@ export interface IBaseTypes {
   updated: string;
 }
 
+export interface IProductTypes extends IBaseTypes {
+  image:string,
+  price:number,
+  expand: {
+    name: ILangTypes;
+    description: ILangTypes;
+  };
+}
+
 export type IExpandType<K extends string> = Record<K, ILangTypes>;
