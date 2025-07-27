@@ -39,7 +39,7 @@ function HomePage() {
                 <FaPhoneAlt size={20} />
               </span>
               <p className="w-full max-w-[180px]">
-                {t.suvContact.phone}
+                <p>{t.suvContact.phone}</p>
                 +99892 200 33 55 +99892 566 22 77
               </p>
             </div>
@@ -52,7 +52,7 @@ function HomePage() {
                 <FaClock size={20} />
               </span>
               <p className="w-full max-w-[120px]">
-                {t.suvContact.time}
+                <p>{t.suvContact.time}</p>
                 09:00 - 18:00
               </p>
             </div>

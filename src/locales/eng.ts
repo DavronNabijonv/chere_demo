@@ -19,6 +19,10 @@ export const eng = {
     },
   },
   homePage: {
+    homeHero: {
+      title: "New Taste, Healthy Life",
+      desc: `Start your healthy lifestyle with us. Clean water - clean life. Don't wait for thirst, place an order`,
+    },
     homeAbout: {
       title: "About Us",
       desc: `Chere Water pure spring water has been operating for its customers since 2023. One of the highest goals of our company is to produce and supply mineral-rich water products in accordance with quality standards. Our filtration technologies occupy high positions in Uzbekistan. Our products are adapted for your office, family and training and combine bright flavors`,
