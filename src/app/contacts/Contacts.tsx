@@ -10,7 +10,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 
 function Contacts() {
-
   const [formData, setFormData] = useState({ name: "", phone: "" });
   const [errors, setErrors] = useState({ name: "", phone: "" });
   const t = useTranslations();
@@ -53,9 +52,11 @@ function Contacts() {
           Bog‘lanish
         </h1>
         <div className="flex w-full items-start justify-around">
-          <div className="flex flex-col gap-5 bg-white max-w-[500px] w-full shadow-[0px_1px_10px_#0000001F] rounded-[24px] py-8 px-5">
-            <h1 className="text-black text-[30px] font-[600]">Ma’lumot qoldiring</h1>
-            <p className="font-[300] text-[20px] max-w-[400px]">
+          <div className="flex w-full max-w-[500px] flex-col gap-5 rounded-[24px] bg-white px-5 py-8 shadow-[0px_1px_10px_#0000001F]">
+            <h1 className="text-[30px] font-[600] text-black">
+              Ma’lumot qoldiring
+            </h1>
+            <p className="max-w-[400px] text-[20px] font-[300]">
               Ma’lumotlaringizni qoldiring va operatorimiz sizga darhol aloqaga
               chiqadi.
             </p>
@@ -63,7 +64,7 @@ function Contacts() {
             {/* form part */}
             <form
               onSubmit={handleSubmit}
-              className="mt-5 flex flex-col max-w-[500px] w-full flex-wrap items-center justify-center gap-5"
+              className="mt-5 flex w-full max-w-[500px] flex-col flex-wrap items-center justify-center gap-5"
             >
               <FormInput
                 id="name"
@@ -74,7 +75,7 @@ function Contacts() {
                 placeholder={t.contact_comp.form.userName}
                 cssStyle="w-full"
               />
-              <div className="flex items-center gap-2 w-full">
+              <div className="flex w-full items-center gap-2">
                 <FormInput
                   id="phone"
                   name="phone"
@@ -83,12 +84,12 @@ function Contacts() {
                   onChange={handleChange}
                   error={errors.phone}
                   placeholder={t.contact_comp.form.phoneNumber}
-                   cssStyle="w-full"
+                  cssStyle="w-full"
                 />
               </div>
               <button
                 type="submit"
-                className="rounded-md bg-[#DDAE57] px-6 py-2 text-white w-full"
+                className="w-full rounded-md bg-[#DDAE57] px-6 py-2 text-white"
               >
                 {t.buttons.remind}
               </button>
@@ -111,9 +112,8 @@ function Contacts() {
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
                 <FaPhoneAlt size={20} />
               </span>
-              <p className="w-full max-w-[300px]">
-                Manzil: Toshkent shahar, Uchtepa tumaniBog‘ishamol koz-‘chasi,
-                3-uy
+              <p className="w-full max-w-[180px]">
+                Biz bilan bog‘laning: +99892 200 33 55 +99892 566 22 77
               </p>
             </div>
 
@@ -121,9 +121,8 @@ function Contacts() {
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
                 <FaClock size={20} />
               </span>
-              <p className="w-full max-w-[300px]">
-                Manzil: Toshkent shahar, Uchtepa tumaniBog‘ishamol koz-‘chasi,
-                3-uy
+              <p className="w-full max-w-[120px]">
+                Murojaat vaqti: 09:00 - 18:00
               </p>
             </div>
           </div>

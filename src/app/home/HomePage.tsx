@@ -1,6 +1,8 @@
 import HomeHero from "./components/homeHero";
 import Contact from "@/components/contact/contact";
 import { IoLocationSharp } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaClock } from "react-icons/fa";
 import AboutHome from "./components/aboutHome";
 import Cargo from "./components/cargo";
 import Whyus from "./components/whyus";
@@ -36,11 +38,11 @@ function HomePage() {
 
             <div className="flex items-center gap-3">
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
-                <IoLocationSharp size={20} />
+                <FaPhoneAlt size={20} />
               </span>
-              <p className="max-w-[300px] w-full">
-                Manzil: Toshkent shahar, Uchtepa tumaniBog‘ishamol koz-‘chasi,
-                3-uy
+              <p className="max-w-[180px] w-full">
+              Biz bilan bog‘laning:
+              +99892 200 33 55 +99892 566 22 77
               </p>
             </div>
 
@@ -49,11 +51,11 @@ function HomePage() {
 
             <div className="flex items-center gap-3">
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
-                <IoLocationSharp size={20} />
+                <FaClock size={20} />
               </span>
-              <p className="max-w-[300px] w-full">
-                Manzil: Toshkent shahar, Uchtepa tumaniBog‘ishamol koz-‘chasi,
-                3-uy
+              <p className="max-w-[120px] w-full">
+              Murojaat vaqti: 
+              09:00 - 18:00
               </p>
             </div>
 

@@ -43,7 +43,7 @@ function Footer() {
               {t.navbar.about}
             </NavLink>
             <NavLink
-              to={`/${lang}/contact`}
+              to={`/${lang}/contacts`}
               className={({ isActive }) =>
                 `hover:text-lightBlue rounded-[10px] p-2 px-4 text-[16px] font-semibold ${isActive ? "bg-[#ffffff] text-[#38549b] shadow-[0px_1px_10px_#77767679]" : "text-[#727886]"}`
               }
