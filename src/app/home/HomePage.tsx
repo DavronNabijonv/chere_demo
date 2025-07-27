@@ -7,58 +7,55 @@ import AboutHome from "./components/aboutHome";
 import Cargo from "./components/cargo";
 import Whyus from "./components/whyus";
 import Products from "./components/products";
+import { useTranslations } from "@/hooks/useTranslations";
 
 function HomePage() {
+  const t = useTranslations();
   return (
     <>
       <HomeHero />
       <div className="bg-gradient-to-tr from-[#f3efed] via-[#f4f8fd] to-[#f3efed]">
-        <Products/>
-        <Whyus/>
+        <Products />
+        <Whyus />
         <div className="h-[100px] w-full bg-white"></div>
-        <Cargo/>
+        <Cargo />
         <AboutHome />
         <Contact />
 
         {/* contact information , phone , location , work hours */}
-        <div className="mx-auto w-full max-w-[1200px]  relative min-[740px]:h-[80px] h-[170px] max-[340px]:h-[220px]">
-          <div className="absolute top-10 flex w-full flex-wrap min-[1085px]:gap-1 gap-5  items-center justify-center rounded-[24px] bg-white px-auto max-[400px]:px-2 min-[740px]:py-3 py-5">
-
+        <div className="relative mx-auto h-[170px] w-full max-w-[1200px] max-[340px]:h-[220px] min-[740px]:h-[80px]">
+          <div className="px-auto absolute top-10 flex w-full flex-wrap items-center justify-center gap-5 rounded-[24px] bg-white py-5 max-[400px]:px-2 min-[740px]:py-3 min-[1085px]:gap-1">
             <div className="flex items-center gap-3">
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
                 <IoLocationSharp size={20} />
               </span>
-              <p className="max-w-[300px] w-full">
-                Manzil: Toshkent shahar, Uchtepa tumaniBog‘ishamol koz-‘chasi,
-                3-uy
-              </p>
+              <p className="w-full max-w-[300px]">{t.suvContact.location}</p>
             </div>
             {/* stick */}
-            <div className="h-[60px] w-[1px] bg-[#CCCCCC] mr-10 min-[801px]:flex hidden"></div>
+            <div className="mr-10 hidden h-[60px] w-[1px] bg-[#CCCCCC] min-[801px]:flex"></div>
 
             <div className="flex items-center gap-3">
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
                 <FaPhoneAlt size={20} />
               </span>
-              <p className="max-w-[180px] w-full">
-              Biz bilan bog‘laning:
-              +99892 200 33 55 +99892 566 22 77
+              <p className="w-full max-w-[180px]">
+                {t.suvContact.phone}
+                +99892 200 33 55 +99892 566 22 77
               </p>
             </div>
 
             {/* stick */}
-            <div className="h-[60px] w-[1px] bg-[#CCCCCC] min-[1085px]:flex hidden mr-10"></div>
+            <div className="mr-10 hidden h-[60px] w-[1px] bg-[#CCCCCC] min-[1085px]:flex"></div>
 
             <div className="flex items-center gap-3">
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
                 <FaClock size={20} />
               </span>
-              <p className="max-w-[120px] w-full">
-              Murojaat vaqti: 
-              09:00 - 18:00
+              <p className="w-full max-w-[120px]">
+                {t.suvContact.time}
+                09:00 - 18:00
               </p>
             </div>
-
           </div>
         </div>
       </div>

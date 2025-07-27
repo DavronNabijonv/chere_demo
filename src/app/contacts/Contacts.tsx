@@ -49,16 +49,15 @@ function Contacts() {
     >
       <div className="mx-auto flex w-full max-w-[1200px] flex-col items-center justify-center gap-15">
         <h1 className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-[20px] font-bold text-transparent sm:text-[30px] lg:text-[50px]">
-          Bog‘lanish
+          {t.navbar.contact}
         </h1>
         <div className="flex w-full items-start justify-around">
           <div className="flex w-full max-w-[500px] flex-col gap-5 rounded-[24px] bg-white px-5 py-8 shadow-[0px_1px_10px_#0000001F]">
             <h1 className="text-[30px] font-[600] text-black">
-              Ma’lumot qoldiring
+              {t.contactPage.title}
             </h1>
             <p className="max-w-[400px] text-[20px] font-[300]">
-              Ma’lumotlaringizni qoldiring va operatorimiz sizga darhol aloqaga
-              chiqadi.
+              {t.contactPage.desc}
             </p>
 
             {/* form part */}
@@ -102,10 +101,7 @@ function Contacts() {
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
                 <IoLocationSharp size={20} />
               </span>
-              <p className="w-full max-w-[300px]">
-                Manzil: Toshkent shahar, Uchtepa tumaniBog‘ishamol koz-‘chasi,
-                3-uy
-              </p>
+              <p className="w-full max-w-[300px]">{t.suvContact.location}</p>
             </div>
 
             <div className="flex items-center gap-3">
@@ -113,7 +109,7 @@ function Contacts() {
                 <FaPhoneAlt size={20} />
               </span>
               <p className="w-full max-w-[180px]">
-                Biz bilan bog‘laning: +99892 200 33 55 +99892 566 22 77
+                {t.suvContact.phone} +99892 200 33 55 +99892 566 22 77
               </p>
             </div>
 
@@ -122,7 +118,7 @@ function Contacts() {
                 <FaClock size={20} />
               </span>
               <p className="w-full max-w-[120px]">
-                Murojaat vaqti: 09:00 - 18:00
+                {t.suvContact.time} 09:00 - 18:00
               </p>
             </div>
           </div>
