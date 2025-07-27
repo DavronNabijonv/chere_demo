@@ -8,6 +8,7 @@ import Cargo from "./components/cargo";
 import Whyus from "./components/whyus";
 import Products from "./components/products";
 import { useTranslations } from "@/hooks/useTranslations";
+import HomeProducts from "./components/homeProducts";
 
 function HomePage() {
   const t = useTranslations();
@@ -15,6 +16,7 @@ function HomePage() {
     <>
       <HomeHero />
       <div className="bg-gradient-to-tr from-[#f3efed] via-[#f4f8fd] to-[#f3efed]">
+        <HomeProducts/>
         <Products />
         <Whyus />
         <div className="h-[100px] w-full bg-white"></div>

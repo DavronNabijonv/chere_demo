@@ -23,6 +23,10 @@ export const uz = {
       title: "Yangi Ta’m, Sog’lom hayot",
       desc: `Sog'lom turmush tarzingizni biz bilan boshlang. Toza suv-musaffo hayot. Chanqoqni kutmang, Buyurtma Bering`,
     },
+    homeProducts:{
+      title:'Mahsulotlarimiz',
+      desc:`2000 metr chuqurlikdagi yer qaridan otilib chiquvchi buloq suvi bo’lgan Chere Water tabiiy ravishda namlantiruvchi va tetiklantiruvchi sifatga ega.`
+    },
     homeAbout: {
       title: "Biz Haqimizda",
       desc: `Chere Water toza buloq suvlari  2023-yildan buyon o'z mijozlari uchun faoliyat yuritib kelmoqda. Bizning kompaniyaning oliy maqsadlaridan biri minerallarga boy suv mahsulotlarini sifat standartlariga mos ishlab chiqarish va yetkazib berishdir. Bizning filtrlash texnalogiyalarimiz O'zbekistonda yuqori o'rinlarni egallaydi. Mahsulotimiz sizning ofisingiz, oilangiz va mashg'ulotlaringiz uchun moslashtirilgan hamda o'zida yorqin ta'mlarni uyg'unlashtirgan`,
@@ -71,4 +75,7 @@ Biz qadriyatlarimiz va sizning ishonchingizga suyanamiz!`,
     phone: "Biz bilan bog‘laning:",
     time: "Murojaat vaqti:",
   },
+  water20Desc:`Oila va ofis uchun katta hajmdagi kapsula, 16.9 Fl Oz / 20 L`,
+  water1Desc:`kundalik foydalanish uchun ideal tanlov , 16.9 Fl Oz / 10 L`,
+  water05Desc:`Kichik turdagi qulay va portativ qadoqlangan suv , 16.9 Fl Oz / 5 L`,
 };

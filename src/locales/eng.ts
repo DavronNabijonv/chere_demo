@@ -23,6 +23,10 @@ export const eng = {
       title: "New Taste, Healthy Life",
       desc: `Start your healthy lifestyle with us. Clean water - clean life. Don't wait for thirst, place an order`,
     },
+    homeProducts:{
+      title:'Our products',
+      desc:`Chere Water, a spring water that erupts from a 2,000-meter-deep underground, has naturally hydrating and refreshing qualities.`
+    },
     homeAbout: {
       title: "About Us",
       desc: `Chere Water pure spring water has been operating for its customers since 2023. One of the highest goals of our company is to produce and supply mineral-rich water products in accordance with quality standards. Our filtration technologies occupy high positions in Uzbekistan. Our products are adapted for your office, family and training and combine bright flavors`,
@@ -71,4 +75,7 @@ We are built on our values and your trust!`,
     phone: "Contact us:",
     time: "Application time:",
   },
+  water20Desc:`Large capacity capsule for family and office, 16.9 Fl Oz / 20 L`,
+  water1Desc:`Ideal choice for everyday use, 16.9 Fl Oz / 10 L`,
+  water05Desc:`Small, convenient and portable bottled water, 16.9 Fl Oz / 5 L`,
 };
