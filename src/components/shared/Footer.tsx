@@ -18,9 +18,9 @@ function Footer() {
           <img src={logo} width={150} />
           <div className="flex flex-wrap items-center justify-center gap-5 px-1">
             <NavLink
-              to={""}
+              to={`/${lang}`}
               className={({ isActive }) =>
-                `hover:text-lightBlue rounded-[10px] p-2 px-4 text-center text-[16px] font-semibold ${isActive && pathName.pathname === "/uz" ? "bg-[#ffffff] text-[#38549b] shadow-[0px_1px_10px_#77767679]" : "text-[#727886]"}`
+                `hover:text-lightBlue rounded-[10px] p-2 px-4 text-center text-[16px] font-semibold ${isActive  ? "bg-[#ffffff] text-[#38549b] shadow-[0px_1px_10px_#77767679]" : "text-[#727886]"}`
               }
             >
               {t.navbar.home}

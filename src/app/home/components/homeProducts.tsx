@@ -35,18 +35,18 @@ export default function HomeProducts() {
           className="home_swiper flex h-[600px] items-center justify-center"
         >
           <SwiperSlide>
-            <div className="group flex flex-col mx-5 gap-5 rounded-[24px] bg-[#E4E5E7] px-5 py-6 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7]">
+            <div className="group flex flex-col gap-5 mx-1 rounded-[24px] bg-[#E4E5E7] px-5 py-6 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7]">
               <img
                 src={baklashka05L}
                 alt="baklashka image"
                 className="rounded-[24px] group-hover:shadow-[0px_1px_10px_#E4E5E7] w-full h-[335px]"
               />
-              <div className="flex flex-col items-start justify-around gap-2">
+              <div className="flex flex-col items-start justify-around gap-3">
                 <p className="text-[24px] text-black">Chere water 1L</p>
                 <p className="text-[16px] text-[#2E3648]">{t.water1Desc}</p>
                 <a
                   href="#contact"
-                  className="flex items-center gap-2 rounded-[100px] border-3 border-white bg-gradient-to-r from-[#808288] to-[#D0CEC8] px-4 py-3 text-[14px] text-white hover:from-[#1A367C] hover:to-[#AF8C4B]"
+                  className="flex items-center gap-2 rounded-[100px] border-3 border-white bg-gradient-to-r from-[#808288] to-[#D0CEC8] px-4 py-2 text-[14px] text-white hover:from-[#1A367C] hover:to-[#AF8C4B]"
                 >
                   {t.buttons.order}
                   <span>
@@ -81,7 +81,7 @@ export default function HomeProducts() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="group flex flex-col gap-3 mx-5 rounded-[24px] bg-[#E4E5E7] px-5 py-6 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7]">
+            <div className="group flex flex-col gap-3 mx-1 rounded-[24px] bg-[#E4E5E7] px-5 py-6 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7]">
               <div className="bg-white rounded-[24px]">
                 <img
                   src={baklashka20L}

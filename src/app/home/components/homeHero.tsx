@@ -27,9 +27,11 @@ export default function HomeHero() {
               <p className="my-5 w-full max-w-[550px] text-[17px] text-[#4D566A] max-lg:text-center sm:text-[20px] lg:my-10">
                 {t.homePage.homeHero.desc}
               </p>
-              <Button className="w-full max-w-[200px] bg-[#1A367C] py-4 text-xl font-medium lg:max-w-[250px] lg:py-8 lg:text-2xl">
-                {t.buttons.order}
-              </Button>
+              <a href="#contact" >
+                <Button className="w-full max-w-[200px] bg-[#1A367C] py-4 text-xl font-medium lg:max-w-[250px] lg:py-8 lg:text-2xl">
+                  {t.buttons.order}
+                </Button>
+              </a>
             </div>
           </div>
         </div>

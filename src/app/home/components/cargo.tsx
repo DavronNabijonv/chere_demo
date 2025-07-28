@@ -17,9 +17,9 @@ export default function Cargo() {
           <p className="w-full max-w-[500px] text-[#8DA1D0] md:text-[20px]">
             {t.homePage.homeCargo.desc}
           </p>
-          <button className="hidden items-center gap-3 rounded-[100px] border-2 border-white bg-linear-to-r from-[#1A367C] to-[#AF8C4B] p-2 px-6 text-[16px] text-white min-lg:flex">
+          <a href="#contact" className="hidden hover:cursor-pointer items-center gap-3 rounded-[100px] border-2 border-white bg-linear-to-r from-[#1A367C] to-[#AF8C4B] p-2 px-6 text-[16px] text-white min-lg:flex">
               {t.buttons.order} <FaArrowRight size={16} />
-            </button>
+            </a>
         </div>
       </div>
     </div>
