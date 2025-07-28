@@ -26,10 +26,10 @@ export default function OurProducts() {
     <div className="mx-auto w-full max-w-[1200px] px-2 py-10">
       {/* title part */}
       <div className="mb-20 flex w-full flex-col items-center justify-center gap-2 font-bold">
-        <h1 className="mx-auto w-full max-w-[800px] bg-gradient-to-r from-[#1A3B8D] via-[#000000] to-[#CCA55D] bg-clip-text text-center text-[45px] font-[500] text-transparent">
+        <h1 className="mx-auto w-full max-w-[800px] bg-gradient-to-r from-[#1A3B8D] via-[#000000] to-[#CCA55D] bg-clip-text text-center md:text-[45px] text-[25px] font-[500] text-transparent">
           {t.productsPage.productsTitle.title1}
         </h1>
-        <h1 className="mx-auto w-full max-w-[800px] bg-gradient-to-r from-[#1A3B8D] via-[#000000] to-[#CCA55D] bg-clip-text text-center text-[60px] font-[500] text-transparent">
+        <h1 className="mx-auto w-full max-w-[800px] bg-gradient-to-r from-[#1A3B8D] via-[#000000] to-[#CCA55D] bg-clip-text text-center md:text-[60px] text-[35px] font-[500] text-transparent">
           {t.productsPage.productsTitle.title2}
         </h1>
       </div>
