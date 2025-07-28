@@ -6,8 +6,10 @@ function Products() {
   return (
     <>
       <ProductHero />
-      <OurProducts/>
-      <Contact/>
+      <OurProducts />
+      <div id="product_contact">
+        <Contact />
+      </div>
     </>
   );
 }
