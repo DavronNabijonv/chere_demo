@@ -26,7 +26,7 @@ export default function OurProducts() {
   console.log('Text',Text);
   
 
-  // Type guard for data.items
+  // Type guard for data.items salom
   const productInfo = (data?.items as IProductTypes[]) || [];
   console.log(productInfo);
 
