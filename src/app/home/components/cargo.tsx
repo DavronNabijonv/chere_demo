@@ -1,4 +1,4 @@
-import { contact_bg } from "@/assets";
+import { box, contact_bg } from "@/assets";
 import { useTranslations } from "@/hooks/useTranslations";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -6,10 +6,10 @@ export default function Cargo() {
   const t = useTranslations();
   return (
     <div
-      className="bg-[#0d1015] bg-cover bg-center bg-no-repeat py-30"
+      className="bg-[#0d1015] bg-cover bg-center bg-no-repeat lg:py-30 md:py-20 max-md:pt-10"
       style={{ backgroundImage: `url(${contact_bg})` }}
     >
-      <div className="relative mx-auto max-w-[1200px] px-2">
+      <div className="relative flex items-center max-md:flex-wrap mx-auto max-w-[1200px] px-2 max-md:gap-10">
         <div className="flex flex-col items-start gap-5">
           <p className="bg-gradient-to-b from-[#FFFFFF] to-[#BDC7E1] bg-clip-text text-[20px] font-bold text-transparent sm:text-[30px] md:text-[40px] lg:text-[50px]">
             {t.homePage.homeCargo.title}
@@ -21,6 +21,7 @@ export default function Cargo() {
               {t.buttons.order} <FaArrowRight size={16} />
             </a>
         </div>
+        <img src={box} alt="" className=" lg:max-w-[400px] md:max-w-[300px] max-w-[200px] mx-auto max-md:h-[300px] object-cover object-top md:absolute right-0 w-full" />
       </div>
     </div>
   );

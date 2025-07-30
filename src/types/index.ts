@@ -19,6 +19,8 @@ export interface IBaseTypes {
 export interface IProductTypes extends IBaseTypes {
   image:string,
   price:number,
+  name:string,
+  description:string,
   expand: {
     name: ILangTypes;
     description: ILangTypes;

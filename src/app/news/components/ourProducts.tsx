@@ -1,9 +1,11 @@
 // import { baklashka1L } from "@/assets";
+import api from "@/api/api";
 import useFetch from "@/hooks/useFetch";
 import useParseHTML from "@/hooks/useParseHTML";
 import { useTranslations } from "@/hooks/useTranslations";
 import { getImage } from "@/lib/GetImage";
 import type { ILangTypes, IProductTypes } from "@/types";
+
 import { useParams } from "react-router-dom";
 
 export default function OurProducts() {
@@ -16,11 +18,19 @@ export default function OurProducts() {
     url: "/api/collections/products/records?expand=name,description",
   });
 
+  const { data:Text} = useFetch({
+    key:'translations',
+    url:'/api/collections/translations/records'
+  })
+
+  console.log('Text',Text);
+  
+
   // Type guard for data.items
   const productInfo = (data?.items as IProductTypes[]) || [];
   console.log(productInfo);
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return <div className="text-center text-50 w-full">Loading...</div>;
 
   return (
     <div className="mx-auto w-full max-w-[1200px] px-2 py-10">
@@ -60,7 +70,6 @@ export default function OurProducts() {
                     ) ?? "",
                 }}
               />
-
               <p
                 className="text-[16px] text-[#4D566A] sm:text-[18px]"
                 dangerouslySetInnerHTML={{

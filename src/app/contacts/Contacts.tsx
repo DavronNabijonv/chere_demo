@@ -8,6 +8,8 @@ import { FormInput } from "@/components/contact/FormInput";
 // icons
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
+import axios from "axios";
+import {ToastContainer, toast } from "react-toastify";
 
 function Contacts() {
   const [formData, setFormData] = useState({ name: "", phone: "" });
@@ -26,6 +28,11 @@ function Contacts() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const token = "7940057045:AAHRFPvgUCo_7pqpXD6uq4li7-_DYx2J96g"; // Use environment variable
+    const chatId = 6134458285;
+    const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
     const nameError = validateName(formData.name);
     const phoneError = validatePhone(formData.phone);
 
@@ -36,9 +43,27 @@ function Contacts() {
         name: formData.name,
         phone: `+998${formData.phone}`,
       });
+      const info_user = `Ism: ${formData.name}, Phone number: ${formData.phone}`;
 
-      alert("Buyurtma yuborildi!");
-      setFormData({ name: "", phone: "" });
+      try {
+        axios
+          .post(url, {
+            chat_id: chatId,
+            text: info_user,
+          })
+          .then(() => {
+            toast.success("Successfull!", {
+              position: "top-right",
+            });
+          });
+      } catch (error) {
+        toast.error("Error.", {
+          position: "top-right",
+        });
+        console.error("Yuborishda xatolik:", error);
+      } finally {
+        setFormData({ name: "", phone: "" });
+      }
     }
   };
 
@@ -124,6 +149,7 @@ function Contacts() {
           </div>
         </div>
       </div>
+      <ToastContainer/>
     </div>
   );
 }
