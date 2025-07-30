@@ -1,5 +1,5 @@
 // import { baklashka1L } from "@/assets";
-import api from "@/api/api";
+// import api from "@/api/api";
 import useFetch from "@/hooks/useFetch";
 import useParseHTML from "@/hooks/useParseHTML";
 import { useTranslations } from "@/hooks/useTranslations";
