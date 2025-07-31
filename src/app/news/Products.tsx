@@ -7,7 +7,7 @@ function Products() {
     <>
       <ProductHero />
       <OurProducts />
-      <div id="product_contact">
+      <div id="contact">
         <Contact />
       </div>
     </>

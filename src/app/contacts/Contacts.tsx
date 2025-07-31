@@ -9,7 +9,7 @@ import { FormInput } from "@/components/contact/FormInput";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 import axios from "axios";
-import {ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 
 function Contacts() {
   const [formData, setFormData] = useState({ name: "", phone: "" });
@@ -129,14 +129,16 @@ function Contacts() {
               <p className="w-full max-w-[300px]">{t.suvContact.location}</p>
             </div>
 
-            <div className="flex items-center gap-3">
-              <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
-                <FaPhoneAlt size={20} />
-              </span>
-              <p className="w-full max-w-[180px]">
-                {t.suvContact.phone} +99892 200 33 55 +99892 566 22 77
-              </p>
-            </div>
+            <a href="tel:922003355">
+              <div className="flex items-center gap-3">
+                <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
+                  <FaPhoneAlt size={20} />
+                </span>
+                <p className="w-full max-w-[180px]">
+                  {t.suvContact.phone} +99892 200 33 55 +99892 566 22 77
+                </p>
+              </div>
+            </a>
 
             <div className="flex items-center gap-3">
               <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
@@ -149,7 +151,7 @@ function Contacts() {
           </div>
         </div>
       </div>
-      <ToastContainer/>
+      <ToastContainer />
     </div>
   );
 }

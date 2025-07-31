@@ -38,15 +38,17 @@ function HomePage() {
             {/* stick */}
             <div className="mr-10 hidden h-[60px] w-[1px] bg-[#CCCCCC] min-[801px]:flex"></div>
 
-            <div className="flex items-center gap-3">
-              <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
-                <FaPhoneAlt size={20} />
-              </span>
-              <p className="w-full max-w-[180px]">
-                <p>{t.suvContact.phone}</p>
-                +99892 200 33 55 +99892 566 22 77
-              </p>
-            </div>
+            <a href="tel:922003355">
+              <div className="flex items-center gap-3">
+                <span className="rounded-[100%] bg-[#DDAE57] p-2.5 text-white">
+                  <FaPhoneAlt size={20} />
+                </span>
+                <p className="w-full max-w-[180px]">
+                  <p>{t.suvContact.phone}</p>
+                  +99892 200 33 55 +99892 566 22 77
+                </p>
+              </div>
+            </a>
 
             {/* stick */}
             <div className="mr-10 hidden h-[60px] w-[1px] bg-[#CCCCCC] min-[1085px]:flex"></div>

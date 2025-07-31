@@ -10,7 +10,9 @@ function AboutPage() {
       <div className="bg-gradient-to-br from-[#fff] via-[#f4f8fd] to-[#dee4f3]">
         <Video />
         <Galary />
-        <Contact/>
+        <div id="contact">
+          <Contact />
+        </div>
       </div>
     </div>
   );

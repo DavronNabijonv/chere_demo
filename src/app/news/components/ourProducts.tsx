@@ -122,7 +122,7 @@ export default function OurProducts() {
                   </p>
                 </div>
               </div>
-              <a href="#product_contact">
+              <a href="#contact">
                 <button className="rounded-[18px] border-4 border-[#5d75b19d] bg-gradient-to-r from-[#808288] to-[#D0CEC8] px-10 py-2 text-[16px] text-white">
                   {t.buttons.order}
                 </button>

@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import { useEffect, useState } from "react";
+import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   const { lang } = useParams();
@@ -17,7 +18,7 @@ function Navbar() {
   const navigate = useNavigate();
 
   // togle variable
-  const [btn, setBtn] = useState<string>( lang || "uz");
+  const [btn, setBtn] = useState<string>(lang || "uz");
   const [tog, setTog] = useState<boolean>(false);
 
   // change language function
@@ -70,7 +71,7 @@ function Navbar() {
             }`}
           >
             <div className="flex w-full max-w-[400px] flex-col items-center justify-center gap-5 rounded-[20px] border-1 border-white bg-[#ffffffd8] px-1 py-8 shadow-[0px_1px_10px_#77767679] backdrop-saturate-200">
-            <NavLink
+              <NavLink
                 to={`/${lang}`}
                 onClick={() => setTog(false)}
                 className={({ isActive }) =>
@@ -113,7 +114,7 @@ function Navbar() {
                 {t.navbar.contact}
               </NavLink>
               <a href="#contact">
-                <button className="flex items-center hover:cursor-pointer gap-3 rounded-[100px] border-2 border-white bg-linear-to-r from-[#1A367C] to-[#AF8C4B] p-2 px-3 text-[16px] text-white">
+                <button className="flex items-center gap-3 rounded-[100px] border-2 border-white bg-linear-to-r from-[#1A367C] to-[#AF8C4B] p-2 px-3 text-[16px] text-white hover:cursor-pointer">
                   {t.buttons.order} <FaArrowRight size={16} />
                 </button>
               </a>
@@ -130,7 +131,7 @@ function Navbar() {
           {/* main links */}
           <ul className="hidden items-center justify-between space-x-6 rounded-[100px] border-1 border-white bg-[#ffffff86] px-1 py-2 shadow-[0px_1px_10px_#77767679] backdrop-saturate-200 min-lg:flex">
             <li>
-            <NavLink
+              <NavLink
                 to={`/${lang}`}
                 onClick={() => setTog(false)}
                 className={({ isActive }) =>
@@ -180,9 +181,11 @@ function Navbar() {
           {/* contact and language tegs */}
           <div className="flex items-center justify-center gap-2">
             {/* contact */}
-            <button className="hidden items-center gap-3 rounded-[100px] border-2 border-white bg-linear-to-r from-[#1A367C] to-[#AF8C4B] p-2 px-3 text-[16px] text-white hover:cursor-pointer min-lg:flex">
-              {t.buttons.order} <FaArrowRight size={16} />
-            </button>
+            <HashLink to={`${pathName.pathname}#contact`}>
+              <button className="hidden items-center gap-3 rounded-[100px] border-2 border-white bg-linear-to-r from-[#1A367C] to-[#AF8C4B] p-2 px-3 text-[16px] text-white hover:cursor-pointer min-lg:flex">
+                {t.buttons.order} <FaArrowRight size={16} />
+              </button>
+            </HashLink>
 
             {/* language */}
             <div className="flex items-center gap-2">
