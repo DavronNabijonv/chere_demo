@@ -17,14 +17,19 @@ function Footer() {
         <div className="flex flex-wrap min-[770px]:gap-2 gap-5 items-center min-[770px]:justify-between justify-center">
           <img src={logo} width={150} />
           <div className="flex flex-wrap items-center justify-center gap-5 px-1">
-            <NavLink
-              to={`/${lang}`}
-              className={({ isActive }) =>
-                `hover:text-lightBlue rounded-[10px] p-2 px-4 text-center text-[16px] font-semibold ${isActive  ? "bg-[#ffffff] text-[#38549b] shadow-[0px_1px_10px_#77767679]" : "text-[#727886]"}`
-              }
-            >
-              {t.navbar.home}
-            </NavLink>
+          <NavLink
+                to={`/${lang}`}
+                className={({ isActive }) =>
+                  `hover:text-lightBlue rounded-[100px] p-2 px-4 text-center text-[16px] font-semibold ${
+                    isActive
+                      ? "bg-[#ffffff] text-[#38549b] shadow-[0px_1px_10px_#77767679]"
+                      : "text-[#727886]"
+                  }`
+                }
+                end
+              >
+                {t.navbar.home}
+              </NavLink>
 
             <NavLink
               to={`/${lang}/products`}
