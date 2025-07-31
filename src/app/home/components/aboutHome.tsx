@@ -21,30 +21,36 @@ export default function AboutHome() {
                 <img 
                     src={img1} 
                     alt='about works' 
+                    loading="lazy"
                     className="min-[640px]:row-span-2 min-[640px]:col-span-1 min-[640px]:w-full w-[80%] max-[400px]:w-full mx-auto min-[640px]:h-full h-[300px] object-cover rounded-lg"
                 />
                 <img 
                     src={img3} 
                     alt='about works' 
+                    loading="lazy"
                     className="min-[640px]:row-span-1 min-[640px]:col-span-1 min-[640px]:h-full h-[300px] object-cover rounded-lg min-[640px]:w-full w-[80%] max-[400px]:w-full mx-auto"
                 />
                 <img 
                     src={img5} 
+                    loading="lazy"
                     alt='about works' 
                     className="min-[640px]:row-span-2 min-[640px]:col-span-1 min-[640px]:w-full w-[80%] max-[400px]:w-full mx-auto min-[640px]:h-full h-[300px] object-cover rounded-lg"
                 />
                 <img 
                     src={img4} 
+                    loading="lazy"
                     alt='about works' 
                     className="min-[640px]:row-span-2 min-[640px]:col-span-1 min-[640px]:w-full w-[80%] max-[400px]:w-full mx-auto min-[640px]:h-full h-[300px] object-cover rounded-lg"
                 />
                 <img 
                     src={img2} 
+                    loading="lazy"
                     alt='about works' 
                     className="min-[640px]:row-span-1 min-[640px]:col-span-1 min-[640px]:w-full w-[80%] max-[400px]:w-full mx-auto min-[640px]:h-full h-[300px] object-cover rounded-lg"
                 />
                 <img 
                     src={img6} 
+                    loading="lazy"
                     alt='about works' 
                     className="min-[640px]:row-span-1 min-[640px]:col-span-1 min-[640px]:w-full w-[80%] max-[400px]:w-full mx-auto min-[640px]:h-full h-[300px] object-cover object-center rounded-lg"
                 />

@@ -57,6 +57,7 @@ export default function OurProducts() {
                 image: item.image,
               })}
               alt="1L baker image"
+              loading="lazy"
               className="h-[300px] w-[300px] object-contain"
             />
 

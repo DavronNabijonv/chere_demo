@@ -24,7 +24,7 @@ export default function Products() {
               {t.homePage.homeSer.desc}
             </p>
           </div>
-          <img src={ser} alt="sertificate image" className="w-[300px]" />
+          <img src={ser} alt="sertificate image" loading="lazy" className="w-[300px]" />
         </div>
       </div>
     </div>

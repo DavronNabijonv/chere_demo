@@ -21,7 +21,7 @@ export default function Cargo() {
               {t.buttons.order} <FaArrowRight size={16} />
             </a>
         </div>
-        <img src={box} alt="" className=" lg:max-w-[400px] md:max-w-[300px] max-w-[200px] mx-auto max-md:h-[300px] object-cover object-top md:absolute right-0 w-full" />
+        <img src={box} alt="" loading="lazy" className=" lg:max-w-[400px] md:max-w-[300px] max-w-[200px] mx-auto max-md:h-[300px] object-cover object-top md:absolute right-0 w-full" />
       </div>
     </div>
   );

@@ -24,16 +24,19 @@ export default function Galary() {
           <div className="flex flex-col gap-5">
             <img
               src={img1}
+              loading="lazy"
               alt="about us images"
               className="h-[350px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img2}
+              loading="lazy"
               alt="about us images"
               className="h-[350px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img10}
+              loading="lazy"
               alt="about us images"
               className="h-[350px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
@@ -42,16 +45,19 @@ export default function Galary() {
           <div className="flex flex-col gap-5">
             <img
               src={img3}
+              loading="lazy"
               alt="about us images"
               className="h-[175px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img4}
+              loading="lazy"
               alt="about us images"
               className="h-[400px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img8}
+              loading="lazy"
               alt="about us images"
               className="h-[480px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
@@ -60,16 +66,19 @@ export default function Galary() {
           <div className="flex flex-col gap-5">
             <img
               src={img5}
+              loading="lazy"
               alt="about us images"
               className="h-[350px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img7}
+              loading="lazy"
               alt="about us images"
               className="h-[400px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img9}
+              loading="lazy"
               alt="about us images"
               className="h-[300px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
@@ -83,21 +92,25 @@ export default function Galary() {
           <div className="flex flex-col gap-5">
             <img
               src={img1}
+              loading="lazy"
               alt="about us images"
               className="h-[300px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img2}
+              loading="lazy"
               alt="about us images"
               className="h-[250px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img10}
+              loading="lazy"
               alt="about us images"
               className="h-[400px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img5}
+              loading="lazy"
               alt="about us images"
               className="h-[300px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
@@ -106,27 +119,32 @@ export default function Galary() {
           <div className="flex flex-col gap-5">
             <img
               src={img3}
+              loading="lazy"
               alt="about us images"
               className="h-[175px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img4}
+              loading="lazy"
               alt="about us images"
               className="h-[300px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img8}
+              loading="lazy"
               alt="about us images"
               className="h-[280px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img7}
+              loading="lazy"
               alt="about us images"
               className="h-[250px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
             <img
               src={img9}
               alt="about us images"
+              loading="lazy"
               className="h-[225px] w-full max-w-[350px] rounded-[20px] object-cover object-center"
             />
           </div>

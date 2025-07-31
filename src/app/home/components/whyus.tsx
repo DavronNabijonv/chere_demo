@@ -12,7 +12,7 @@ export default function Whyus() {
         <div className="grid min-[1000px]:grid-cols-3 grid-cols-2 w-full min-[1000px]:gap-1 gap-8 max-[720px]:grid-cols-1">
           <div className="flex items-start justify-start gap-3 min-[1000px]:border-r border-[#7F868C] mr-3">
             <span className="bg-[#DDAE57] rounded-[8px] p-2">
-              <img src={drop} alt="drop icon" className="!w-[55px] h-[30px]" />
+              <img src={drop} loading="lazy" alt="drop icon" className="!w-[55px] h-[30px]" />
             </span>
             <div className="flex flex-col gap-3">
                 <p className="md:text-[30px] text-[20px] font-semibold">{t.homePage.homeWhyUs.title1}</p>
@@ -21,7 +21,7 @@ export default function Whyus() {
           </div>
           <div className="flex items-start justify-start gap-3 min-[1000px]:border-r border-[#7F868C] mr-3">
             <span className="bg-[#DDAE57] rounded-[8px] p-2">
-              <img src={botle} alt="drop icon" className="!w-[55px] !h-[30px]" />
+              <img src={botle} loading="lazy" alt="drop icon" className="!w-[55px] !h-[30px]" />
             </span>
             <div className="flex flex-col gap-3">
                 <p className="md:text-[30px] text-[20px] font-semibold">{t.homePage.homeWhyUs.title2}</p>
@@ -30,7 +30,7 @@ export default function Whyus() {
           </div>
           <div className="flex items-start justify-start gap-3">
             <span className="bg-[#DDAE57] rounded-[8px] p-2">
-              <img src={circleDrop} alt="drop icon" className="!w-[55px] !h-[30px]" />
+              <img src={circleDrop} loading="lazy" alt="drop icon" className="!w-[55px] !h-[30px]" />
             </span>
             <div className="flex flex-col gap-3">
                 <p className="md:text-[30px] text-[20px] font-semibold">{t.homePage.homeWhyUs.title3}</p>

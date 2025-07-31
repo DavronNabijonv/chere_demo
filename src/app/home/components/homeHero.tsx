@@ -11,6 +11,7 @@ export default function HomeHero() {
         <img
           src={ocean}
           alt="back image ocean"
+          loading="lazy"
           className="absolute bottom-0 h-[50%] w-full object-bottom opacity-70"
         />
 
@@ -41,6 +42,7 @@ export default function HomeHero() {
       <img
         src={baklashka}
         alt="right image"
+        loading="lazy"
         className="absolute top-65 right-10 z-20 w-full object-cover max-lg:max-w-[700px] max-md:hidden md:top-80 lg:top-10 lg:-right-50 lg:w-[800px] xl:-right-70 xl:w-[1300px]"
       />
     </div>
