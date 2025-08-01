@@ -19,13 +19,13 @@ export default function HomeHero() {
         <div className="absolute z-10 h-[70%] w-full bg-gradient-to-t from-[#ffffff] to-[#c3d9f8] shadow-[0px_60px_50px_#fff]">
           <div className="main-container flex items-center justify-center pt-20 lg:pt-50">
             <div className="flex w-full flex-col max-lg:items-center">
-              <h1 className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-[25px] font-bold text-transparent sm:text-[40px] lg:text-[60px]">
+              <h1 className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-[30px] font-bold text-transparent sm:text-[40px] lg:text-[60px]">
                 Chere Water
               </h1>
               <h1 className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-[20px] font-bold text-transparent sm:text-[30px] lg:text-[50px]">
                 {t.homePage.homeHero.title}
               </h1>
-              <p className="my-5 w-full max-w-[550px] text-[17px] text-[#4D566A] max-lg:text-center sm:text-[20px] lg:my-10">
+              <p className="my-5 w-full max-w-[550px] text-[#4D566A] max-lg:text-center text-[20px] lg:my-10">
                 {t.homePage.homeHero.desc}
               </p>
               <a href="#contact" >

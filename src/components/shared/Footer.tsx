@@ -11,7 +11,7 @@ function Footer() {
   console.log(pathName);
   
   return (
-    <div className={`${pathName.pathname === '/uz' ? 'pt-30':pathName.pathname === '/ru'?'pt-30':''} bg-[#e8eff8d8] py-10`}>
+    <div className={`${pathName.pathname === '/uz' ? 'min-[842px]:pt-30 pt-40':pathName.pathname === '/ru'?'min-[842px]:pt-30 pt-40':''} bg-[#e8eff8d8] py-10`}>
       <div className="mx-auto flex max-w-[1200px] flex-col gap-10 max-lg:px-2">
         {/* page links part */}
         <div className="flex flex-wrap min-[770px]:gap-2 gap-5 items-center min-[770px]:justify-between justify-center">

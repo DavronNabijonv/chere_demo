@@ -9,10 +9,10 @@ export default function ProductHero() {
       style={{ backgroundImage: `url(${back_hero_products})` }}
     >
       <div className="flex flex-col items-center justify-center gap-5">
-        <h1 className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-[20px] font-bold text-transparent sm:text-[30px] lg:text-[50px]">
+        <h1 className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text font-bold text-transparent text-[30px] lg:text-[50px]">
           {t.productsPage.titelePart.title}
         </h1>
-        <p className="w-full max-w-[550px] text-center text-[17px] text-[#4D566A] max-lg:text-center sm:text-[20px]">
+        <p className="w-full max-w-[550px] text-center text-[#4D566A] max-lg:text-center text-[20px]">
           {t.productsPage.titelePart.desc}
         </p>
       </div>

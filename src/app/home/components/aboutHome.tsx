@@ -8,10 +8,10 @@ export default function AboutHome() {
         <div className="mx-auto w-full max-w-[1200px] pt-10 px-4">
             {/* Sarlavha va tavsif */}
             <div className="flex flex-col gap-4 items-start mb-8">
-                <p className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-transparent lg:text-[60px] md:text-[40px] sm:text-[30px] text-[20px] font-bold">
+                <p className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-transparent lg:text-[60px] md:text-[40px] text-[30px] font-bold">
                     {t.homePage.homeAbout.title}
                 </p>
-                <p className="text-[#4D566A] md:text-[20px]">
+                <p className="text-[#4D566A] md:text-[20px] text-[18px]">
                     {t.homePage.homeAbout.desc}
                 </p>
             </div>

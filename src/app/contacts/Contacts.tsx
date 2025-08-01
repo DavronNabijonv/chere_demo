@@ -73,10 +73,10 @@ function Contacts() {
       style={{ backgroundImage: `url(${back_hero})` }}
     >
       <div className="mx-auto flex w-full max-w-[1200px] flex-col items-center justify-center gap-15">
-        <h1 className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-[20px] font-bold text-transparent sm:text-[30px] lg:text-[50px]">
+        <h1 className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text font-bold text-transparent text-[30px] lg:text-[50px]">
           {t.navbar.contact}
         </h1>
-        <div className="flex w-full items-start justify-around">
+        <div className="flex w-full items-start justify-around min-[800px]:gap-5 gap-10 max-[800px]:flex-wrap">
           <div className="flex w-full max-w-[500px] flex-col gap-5 rounded-[24px] bg-white px-5 py-8 shadow-[0px_1px_10px_#0000001F]">
             <h1 className="text-[30px] font-[600] text-black">
               {t.contactPage.title}

@@ -5,14 +5,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { baklashka05L, baklashka1L, baklashka20L } from "@/assets";
 import { FaArrowRight } from "react-icons/fa";
-import './homePage.css'
+import "./homePage.css";
 
 export default function HomeProducts() {
   const t = useTranslations();
   return (
-    <div className="mx-auto w-full max-w-[1200px] px-2 pb-30">
+    <div className="mx-auto w-full max-w-[1200px] px-2 min-[650px]:pb-30">
       {/* home products title */}
-      <div className="flex flex-col gap-2 pt-20 ">
+      <div className="flex flex-col gap-2 pt-10 min-sm:pt-20">
         <h1 className="bg-gradient-to-b from-[#000000] via-[#1A367C] to-[#1A367C] bg-clip-text text-[25px] font-bold text-transparent sm:text-[40px] lg:text-[60px]">
           {t.homePage.homeProducts.title}
         </h1>
@@ -35,13 +35,15 @@ export default function HomeProducts() {
           className="home_swiper flex h-[600px] items-center justify-center"
         >
           <SwiperSlide>
-            <div className="group flex flex-col gap-5 mx-1 rounded-[24px] bg-[#E4E5E7] px-5 py-6 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7]">
-              <img
-                src={baklashka05L}
-                loading="lazy"
-                alt="baklashka image"
-                className="rounded-[24px] group-hover:shadow-[0px_1px_10px_#E4E5E7] w-full h-[335px]"
-              />
+            <div className="group mx-1 flex flex-col gap-5 rounded-[24px] bg-[#E4E5E7] px-2 py-2 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7] min-sm:px-5 min-sm:py-6">
+              <div className="rounded-[24px] bg-white">
+                <img
+                  src={baklashka05L}
+                  loading="lazy"
+                  alt="baklashka image"
+                  className="h-[270px] w-full rounded-[24px] group-hover:shadow-[0px_1px_10px_#E4E5E7] max-sm:object-contain min-sm:h-[335px]"
+                />
+              </div>
               <div className="flex flex-col items-start justify-around gap-3">
                 <p className="text-[24px] text-black">Chere water 1L</p>
                 <p className="text-[16px] text-[#2E3648]">{t.water1Desc}</p>
@@ -58,13 +60,13 @@ export default function HomeProducts() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="group flex flex-col gap-3 mx-1 rounded-[24px] bg-[#E4E5E7] px-5 py-6 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7]">
-              <div className="bg-white rounded-[24px]">
+            <div className="group mx-1 flex flex-col gap-3 rounded-[24px] bg-[#E4E5E7] px-2 py-2 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7] min-sm:px-5 min-sm:py-6">
+              <div className="rounded-[24px] bg-white">
                 <img
                   src={baklashka1L}
                   loading="lazy"
                   alt="baklashka image"
-                  className="rounded-[24px] group-hover:shadow-[0px_1px_10px_#E4E5E7] w-full h-[335px]"
+                  className="h-[270px] w-full rounded-[24px] group-hover:shadow-[0px_1px_10px_#E4E5E7] max-sm:object-contain min-sm:h-[335px]"
                 />
               </div>
               <div className="flex flex-col items-start justify-around gap-4">
@@ -83,13 +85,13 @@ export default function HomeProducts() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="group flex flex-col gap-3 mx-1 rounded-[24px] bg-[#E4E5E7] px-5 py-6 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7]">
-              <div className="bg-white rounded-[24px]">
+            <div className="group mx-1 flex flex-col gap-5 rounded-[24px] bg-[#E4E5E7] px-2 py-2 hover:bg-white hover:shadow-[0px_1px_10px_#E4E5E7] min-sm:px-4 min-sm:py-5">
+              <div className="rounded-[24px] bg-white">
                 <img
                   src={baklashka20L}
                   alt="baklashka image"
                   loading="lazy"
-                  className="rounded-[24px] group-hover:shadow-[0px_1px_10px_#E4E5E7] w-full h-[335px]"
+                  className="h-[270px] w-full rounded-[24px] group-hover:shadow-[0px_1px_10px_#E4E5E7] max-sm:object-contain min-sm:h-[335px]"
                 />
               </div>
               <div className="flex flex-col items-start justify-around gap-4">
