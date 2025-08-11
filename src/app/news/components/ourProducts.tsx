@@ -6,10 +6,12 @@ import { useTranslations } from "@/hooks/useTranslations";
 import { getImage } from "@/lib/GetImage";
 import type { ILangTypes, IProductTypes } from "@/types";
 
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function OurProducts() {
   const t = useTranslations();
+  const pathName = useLocation();
   const { lang } = useParams();
   const { parseHTMLString } = useParseHTML();
 
@@ -122,11 +124,12 @@ export default function OurProducts() {
                   </p>
                 </div>
               </div>
-              <a href="#contact">
+              <HashLink smooth
+                  to={`${pathName.pathname}#contact`}>
                 <button className="rounded-[18px] border-4 border-[#5d75b19d] bg-gradient-to-r from-[#808288] to-[#D0CEC8] px-10 py-2 text-[16px] text-white">
                   {t.buttons.order}
                 </button>
-              </a>
+              </HashLink>
             </div>
           </div>
         ))}

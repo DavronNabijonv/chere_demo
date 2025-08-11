@@ -6,9 +6,12 @@ import "swiper/css/navigation";
 import { baklashka05L, baklashka1L, baklashka20L } from "@/assets";
 import { FaArrowRight } from "react-icons/fa";
 import "./homePage.css";
+import { HashLink } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 
 export default function HomeProducts() {
   const t = useTranslations();
+  const pathName = useLocation();
   return (
     <div className="mx-auto w-full max-w-[1200px] px-2 min-[650px]:pb-30">
       {/* home products title */}
@@ -47,15 +50,16 @@ export default function HomeProducts() {
               <div className="flex flex-col items-start justify-around gap-3">
                 <p className="text-[24px] text-black">Chere water 1L</p>
                 <p className="text-[16px] text-[#2E3648]">{t.water1Desc}</p>
-                <a
-                  href="#contact"
+                <HashLink
+                  smooth
+                  to={`${pathName.pathname}#contact`}
                   className="flex items-center gap-2 rounded-[100px] border-3 border-white bg-gradient-to-r from-[#808288] to-[#D0CEC8] px-4 py-2 text-[14px] text-white hover:from-[#1A367C] hover:to-[#AF8C4B]"
                 >
                   {t.buttons.order}
                   <span>
                     <FaArrowRight />
                   </span>
-                </a>
+                </HashLink>
               </div>
             </div>
           </SwiperSlide>
@@ -72,15 +76,16 @@ export default function HomeProducts() {
               <div className="flex flex-col items-start justify-around gap-4">
                 <p className="text-[24px] text-black">Chere water 0.5L</p>
                 <p className="text-[16px] text-[#2E3648]">{t.water05Desc}</p>
-                <a
-                  href="#contact"
+                <HashLink
+                  smooth
+                  to={`${pathName.pathname}#contact`}
                   className="flex items-center gap-2 rounded-[100px] border-3 border-white bg-gradient-to-r from-[#808288] to-[#D0CEC8] px-4 py-2 text-[14px] text-white hover:from-[#1A367C] hover:to-[#AF8C4B]"
                 >
                   {t.buttons.order}
                   <span>
                     <FaArrowRight />
                   </span>
-                </a>
+                </HashLink>
               </div>
             </div>
           </SwiperSlide>
@@ -97,15 +102,16 @@ export default function HomeProducts() {
               <div className="flex flex-col items-start justify-around gap-4">
                 <p className="text-[24px] text-black">Chere water 20L</p>
                 <p className="text-[16px] text-[#2E3648]">{t.water20Desc}</p>
-                <a
-                  href="#contact"
+                <HashLink
+                  smooth
+                  to={`${pathName.pathname}#contact`}
                   className="flex items-center gap-2 rounded-[100px] border-3 border-white bg-gradient-to-r from-[#808288] to-[#D0CEC8] px-4 py-2 text-[14px] text-white hover:from-[#1A367C] hover:to-[#AF8C4B]"
                 >
                   {t.buttons.order}
                   <span>
                     <FaArrowRight />
                   </span>
-                </a>
+                </HashLink>
               </div>
             </div>
           </SwiperSlide>

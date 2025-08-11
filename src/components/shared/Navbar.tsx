@@ -181,7 +181,7 @@ function Navbar() {
           {/* contact and language tegs */}
           <div className="flex items-center justify-center gap-2">
             {/* contact */}
-            <HashLink to={`${pathName.pathname}#contact`}>
+            <HashLink smooth to={`${pathName.pathname}#contact`}>
               <button className="hidden items-center gap-3 rounded-[100px] border-2 border-white bg-linear-to-r from-[#1A367C] to-[#AF8C4B] p-2 px-3 text-[16px] text-white hover:cursor-pointer min-lg:flex">
                 {t.buttons.order} <FaArrowRight size={16} />
               </button>
